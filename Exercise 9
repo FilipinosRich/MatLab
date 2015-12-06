@@ -1,0 +1,10 @@
+function [matrix] = mxn(i,j)
+if i>j 
+    display('Error')
+else 
+    for n = 1:i;
+        for k = 1:j;
+        matrix(i,j) = 1/(i+j-1)
+        end
+    end
+end
