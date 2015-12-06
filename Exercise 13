@@ -1,0 +1,7 @@
+function[c] = divisor(a)
+    for l = [1:a]
+        if (mod(a,l) == 0)
+            display([l])
+        end
+    end
+end
