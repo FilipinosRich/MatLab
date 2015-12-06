@@ -1,0 +1,9 @@
+function[matrix] = nxn(a,b)
+for k = 1:a
+    for l = 1:b
+        if k == l
+            matrix(k,l) = 5
+        else matrix(k,l) = 0
+        end 
+    end 
+end 
