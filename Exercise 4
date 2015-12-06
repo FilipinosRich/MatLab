@@ -1,0 +1,7 @@
+function product = Product(a,b)
+  if a>b 
+    product = a*b 
+  else
+    product = a+b 
+  end
+end
