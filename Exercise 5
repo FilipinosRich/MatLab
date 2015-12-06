@@ -1,0 +1,7 @@
+function [c] = Switch(k,l)
+  if (mod(k,2) == 0 & mod(l,2) == 1); 
+        display([l,k]);
+  else
+        display([k,l]);
+  end
+end
