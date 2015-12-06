@@ -1,0 +1,7 @@
+function[matrix]=matrix(i,j)
+    for n = 1:i
+        for k = 1:j
+            matrix(n,k) = n^k;
+        end 
+    end 
+end 
