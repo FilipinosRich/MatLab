@@ -1,0 +1,8 @@
+function[c] = Schrikkel(a)
+  if ((rem(a,400)==0)) || (rem(a,4) ==0 && rem(a,100) ~= 0)
+  %1st rem: checking for divising by 400 OR divisable by 4 and not by 100
+    display(1)
+  else
+    display(0)
+  end
+end
