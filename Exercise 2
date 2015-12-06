@@ -1,0 +1,7 @@
+function[k,l] = Som(k,l)
+  if k>l 
+    som = (k+l)/(k^2)
+  else 
+    som = (l+k)/(l^2)
+  end
+end
