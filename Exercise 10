@@ -1,0 +1,7 @@
+random = randi(1000)
+while random > 1
+    random = random/2
+    if random < 1
+        break
+    end
+end
