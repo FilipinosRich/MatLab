@@ -1,0 +1,16 @@
+2 options:
+
+function[C] = Faculty(x) %recursive
+if x == 1 || x  == 0 
+   C = 1;
+elseif x > 1 
+    C = x * Faculty(x-1);
+end
+end
+
+----------------------------
+
+function[C] = Faculty(x)
+C = cumprod(1:x);
+end
+%Deze geeft voor getallen > 10 een antwoord in de vorm van columns .. through ... 
