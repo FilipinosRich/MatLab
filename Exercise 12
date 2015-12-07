@@ -1,20 +1,18 @@
 function[c] = number(n)
 n = randi(1000)
+while n < 1000
     if (mod(n,4) == 0 || mod(n,6) == 0)
-        while n < 1000
             n = n + 3;
             if n >= 1000
                 display(n)
             break
             end
-        end
     else 
-        while n < 1000
             n = n + 5;
             if n >= 1000
                 display(n)
             break
             end
-        end
     end
 end
+
