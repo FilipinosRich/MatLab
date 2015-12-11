@@ -1,0 +1,13 @@
+function[c] = Power(n)
+k = 1000;
+for l = 1:k;
+    if (mod(l,2) == 0)
+        a = n^l;
+        if a >= 500 && a < 1000
+            display(l)
+        else
+        end
+    end
+end
+end
+
